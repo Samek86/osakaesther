@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>memo</title>
+    <style>html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #E5D695;
+  font-family: sans-serif;
+}
+h1, h1::after {
+  color : darkblue;
+  font-size : 80px;
+  text-decoration: none;
+  text-align: center;
+  outline: 0;
+  margin : 0px 0px 20px 0px;
+  padding: 20px;
+  background: #BBA3CE;
+
+}
+.title, .title::after {
+  color : black;
+  font-size : 80px;
+  text-decoration: none;
+  outline: 0;
+  margin : 5px 10px;
+
+}
+
+h2, h2::after {
+  font-size : 50px;
+  text-decoration: none;
+  margin: 5px 30px;
+}
+
+a, a::after{
+  text-decoration: none;
+  color : darkblue;
+}
+
+li {
+  font-size: 70px;
+  margin: 10px 15px;
+  padding: 10px;
+  list-style: none;
+  background-color: #9DD10B;
+  border: 3px dashed black;
+  float : left;
+  display: block;
+  color : #333;
+}
+input, textarea{
+  font-size: 80px;
+  margin: 10px 50px;
+}
+textarea{
+  padding-right: 0;
+  margin-right: 0;
+  height: 400px;
+}
+input[type=submit] {
+  text-align: center;
+  padding: 30px 300px;
+  background: #EEE;
+}
+.line{
+  position: relative;
+
+}
+.content{
+  position: absolute;
+  text-align: center;
+  display: inline;
+  bottom: 200px;
+  left : 30px;
+  padding: 40px;
+  background: #C2B57E;
+}
+
+.btn{
+  position: absolute;
+  bottom: 30px;
+  right :10px;
+  text-align: center;
+  font-size : 60px;
+  text-decoration: none;
+  margin: 5px 30px;
+  padding: 20px;
+  background: #444;
+  color : #ffffff;
+}
+
+.save{
+  text-align: center;
+}
+
+.back{
+  font-size: 60px;
+  text-align: right;
+  margin: 40px;
+  display: inline-block;
+  vertical-align: middle;
+  color : #333;
+}
+
+    </style>
+  </head>
+  <meta charset="utf-8">
+  <body>
+    <h1><a href="/memo">메모장</a></h1>
+    <ul><a href="/memo/おはよう">
+        <li>おはよう</li></a><a href="/memo/대동설비 홈피입니다">
+        <li>대동설비 홈피입니다</li></a><a href="/memo/뭐해요">
+        <li>뭐해요</li></a><a href="/memo/안녕하세요">
+        <li>안녕하세요</li></a><a href="/memo/이게뭐야">
+        <li>이게뭐야</li></a><a href="/memo/저장">
+        <li>저장</li></a>
+    </ul>
+    <div class="line"></div>
+    <div class="content">
+      <div class="title">뭐해요</div>
+      <h2>그냥 있어요</h2>
+    </div><a href="/form" class="btn">새 메모</a>
+  </body>
+</html>

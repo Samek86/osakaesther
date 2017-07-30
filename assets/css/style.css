@@ -1,0 +1,1466 @@
+
+
+body {
+    padding-top: 0
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none
+}
+
+.jumbotron {
+    background: #706467 url("http://samek86.ipdisk.co.kr:8000/list/HDD1/daedong/assets/img/hero.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    min-width: 280px;
+    min-height: 450px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0
+}
+ /*#    # ###### #####   ####         ####  #    # ###### #####  #        ##   #   #*/
+ /*#    # #      #    # #    #       #    # #    # #      #    # #       #  #   # #*/
+ /*###### #####  #    # #    # ##### #    # #    # #####  #    # #      #    #   #*/
+ /*#    # #      #####  #    #       #    # #    # #      #####  #      ######   #   ###*/
+ /*#    # #      #   #  #    #       #    #  #  #  #      #   #  #      #    #   #   ###*/
+ /*#    # ###### #    #  ####         ####    ##   ###### #    # ###### #    #   #   ###*/
+.jumbotron div.RbOverlay {
+    background: url("http://samek86.ipdisk.co.kr:8000/list/HDD1/daedong/assets/img/hero-overlay.gif");
+    position: absolute;
+    opacity: 0.2;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0
+}
+
+.jumbotron .RbHeader {
+    color: #fff;
+    position: relative;
+    text-align: center
+}
+
+.jumbotron .RbHeader h1 {
+    font-family: "pt_sans_caption-regular", "Myriad Pro", "sanserif";
+    margin: 0;
+    position: absolute;
+    text-align: center;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.35);
+    width: 100%;
+    font-size: 28px;
+    top: 95px
+}
+
+.jumbotron .RbHeader h2 {
+    font-family: "Nanum Barun Gothic";
+    margin: 0;
+    position: absolute;
+    text-align: center;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.35);
+    width: 100%;
+    font-size: 18px;
+    top: 150px;
+    line-height: 1.7;
+}
+
+.jumbotron .RbHeader .RbHrWrap {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 256px;
+}
+
+.jumbotron .RbHeader .RbHrWrap hr {
+    background: #d82c2c;
+    border: none;
+    padding: 0;
+    margin: 0 auto;
+    width: 145px;
+    height: 2px
+}
+
+.jumbotron .RbHeader div {
+    font-family: "pt_sans_captionregular", "Myriad Pro", "sanserif";
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 260px;
+}
+
+.jumbotron .RbHeader div a {
+    display: inline-block;
+    font-size: 11px
+}
+
+.jumbotron .RbHeader div a:link,
+.jumbotron .RbHeader div a:visited {
+    color: #999;
+    color: rgba(255, 255, 255, 1)
+}
+
+.jumbotron .RbHeader div a:link .Icon,
+.jumbotron .RbHeader div a:visited .Icon {
+    color: #fff
+}
+
+.jumbotron .RbHeader div a:hover,
+.jumbotron .RbHeader div a:active {
+    color: #999;
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none
+}
+
+.jumbotron .RbHeader div a:hover .Icon,
+.jumbotron .RbHeader div a:active .Icon {
+    color: #c22528
+}
+
+.jumbotron .RbHeader div a span {
+    font-size: 23px;
+    color: #fff
+}
+
+.jumbotron .RbHeader div a .Icon {
+    line-height: 2em;
+    margin-top: 5px;
+    font-size: 30px
+}
+
+.jumbotron .RbButtonListWrap {
+    display: block;
+    width: 100%;
+    position: relative
+}
+
+.jumbotron .RbButtonList {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 240px;
+    margin: 0;
+    padding: 0
+}
+
+.jumbotron .RbButtonList .RbButtonItem {
+    display: inline-block;
+    width: 42px;
+    height: 42px;
+    margin: 0 0 0 3px;
+    padding: 0;
+    float: left
+}
+
+.navbar.navbar-inverse {
+    background: none;
+    border: none;
+    /*background: #413a3c;*/
+    background: rgba(24, 10, 11, 0.85);
+}
+
+.navbar.navbar-inverse .navbar-brand .Icon {
+    color: #c22528;
+    line-height: 1.3em;
+    font-size: 20px
+}
+
+.navbar.navbar-inverse .navbar-brand {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+ /*#       ####   ####   ####        #    #   ##   #####  #####   ####  #    #
+ #      #    # #    # #    #       ##   #  #  #  #    # #    # #    # #    #
+ #      #    # #      #    # ##### # #  # #    # #    # #    # #    # #    #
+ #      #    # #  ### #    #       #  # # ###### #####  #####  #    # # ## #
+ #      #    # #    # #    #       #   ## #    # #   #  #   #  #    # ##  ##
+ ######  ####   ####   ####        #    # #    # #    # #    #  ####  #    #*/
+.navbar.navbar-inverse .navbar-brand span {
+    background: url("http://samek86.ipdisk.co.kr:8000/list/HDD1/daedong/assets/img/logo-wide.png");
+    width: 238px;
+    height: 40px;
+
+    /*background: url("/assets/img/logo-narrow.png");
+    width: 40px;
+    height: 40px;*/
+    display: inline-block;
+    background-size: cover;
+}
+
+.navbar.navbar-inverse .navbar-nav li>a {
+    font-family: "pt_sans_captionregular", "Myriad Pro", "sanserif"
+}
+
+.navbar.navbar-inverse .navbar-nav li>a:link,
+.navbar.navbar-inverse .navbar-nav li>a:visited {
+    color: #fff
+}
+
+.navbar.navbar-inverse .navbar-nav li>a:hover,
+.navbar.navbar-inverse .navbar-nav li>a:active {
+    color: #c22528
+}
+
+.navbar.navbar-inverse .navbar-nav .active>a:hover,
+.navbar.navbar-inverse .navbar-nav .active>a:link,
+.navbar.navbar-inverse .navbar-nav .active>a:active,
+.navbar.navbar-inverse .navbar-nav .active>a:visited {
+    color: #c22528;
+    background: none
+}
+
+.navbar {
+    margin-bottom: 0
+}
+
+.textback{
+  border-radius: 10px;
+  padding: 0px 1px;
+  background-color: rgba(51, 51, 51, 0.26);
+}
+
+h2 .textback{
+  padding: 5px;
+  line-height: 1.5;
+  background-color: rgba(26, 111, 88, 0.41);
+}
+
+@media (min-width: 768px) {
+    .jumbotron .RbHeader h1 {
+        font-size: 32px;
+        top: 90px
+    }
+    .jumbotron .RbHeader h2 {
+        font-size: 18px;
+        top: 140px
+    }
+    .jumbotron .RbHeader .RbHrWrap {
+        top: 245px;
+    }
+    .jumbotron .RbHeader div {
+        top: 248px;
+    }
+    .jumbotron .RbHeader div a {
+        font-size: 11px
+    }
+    .jumbotron .RbHeader div a span {
+        font-size: 17px
+    }
+    .jumbotron .RbHeader div a .Icon {
+        margin-top: 5px;
+        font-size: 30px
+    }
+    .navbar.navbar-inverse {
+        -webkit-transition: background-color 0.5s;
+        -moz-transition: background-color 0.5s;
+        -ms-transition: background-color 0.5s;
+        -o-transition: background-color 0.5s;
+        transition: background-color 0.5s;
+        background: rgba(0, 0, 0, 0.4)
+    }
+    .navbar.navbar-inverse.Opaque {
+        background: rgba(0, 0, 0, 0.9)
+    }
+    .navbar.navbar-inverse .navbar-nav {
+        float: right
+    }
+    .textback{
+      border-radius: 10px;
+      padding: 0px 5px;
+      background-color: rgba(51, 51, 51, 0.7);
+    }
+}
+
+@media (min-width: 992px) {
+    .jumbotron {
+        min-height: 600px;
+    }
+    .jumbotron .RbHeader h1 {
+        font-size: 48px;
+        top: 120px
+    }
+    .jumbotron .RbHeader h2 {
+        font-size: 24px;
+        top: 190px;
+        line-height: 1.4;
+    }
+    .jumbotron .RbHeader .RbHrWrap {
+        top: 400px;
+    }
+    .jumbotron .RbHeader div {
+        top: 435px;
+    }
+    .jumbotron .RbHeader div a {
+        font-size: 13px
+    }
+    .jumbotron .RbHeader div a span {
+        font-size: 19px
+    }
+    .jumbotron .RbHeader div a .Icon {
+        margin-top: 5px;
+        font-size: 35px
+    }
+    .jumbotron .RbButtonList {
+        top: 437px
+    }
+    .jumbotron .RbHeader div a span.phonenum{
+      font-size: 60px;
+      background-color: rgba(232, 41, 41, 0.79);
+    }
+    .jumbotron .RbHeader h2 .textback {
+      font-size: 40px;
+    }
+
+    .jumbotron .RbHeader div .phonecall{
+      display:  none !important;
+    }
+    .textback{
+      border-radius: 10px;
+      padding: 0px 5px;
+      background-color: rgba(51, 51, 51, 0.7);
+    }
+
+}
+
+@media (min-width: 1200px) {
+    .jumbotron {
+        min-height: 90%;
+    }
+    .jumbotron .RbHeader h1 {
+        font-size: 60px;
+        top: 168px
+    }
+    .jumbotron .RbHeader h2 {
+        font-size: 24px;
+        top: 290px;
+        line-height: 1.4;
+    }
+    .jumbotron .RbHeader .RbHrWrap {
+        top: 520px;
+    }
+    .jumbotron .RbHeader div {
+        top: 530px;
+    }
+    .jumbotron .RbHeader div a {
+        margin-top: 35px;
+        font-size: 13px;
+    }
+    .jumbotron .RbHeader div a span {
+        font-size: 19px
+    }
+    .jumbotron .RbHeader div a .Icon {
+        margin-top: 5px;
+        font-size: 35px
+    }
+    .jumbotron .RbButtonList {
+        top: 602px
+    }
+    .jumbotron .RbHeader div a span.phonenum{
+      font-size: 60px;
+      background-color: rgba(232, 41, 41, 0.79);
+    }
+    .jumbotron .RbHeader h2 .textback {
+      font-size: 40px;
+    }
+
+    .jumbotron .RbHeader div .phonecall{
+      display:  none !important;
+    }
+    .textback{
+      border-radius: 10px;
+      padding: 0px 5px;
+      background-color: rgba(51, 51, 51, 0.7);
+    }
+
+}
+
+ /*#          #######     #####     #######
+ #          #     #    #     #    #     #
+ #          #     #    #          #     #
+ #          #     #    #  ####    #     #
+ #          #     #    #     #    #     #
+ #          #     #    #     #    #     #
+ #######    #######     #####     #######*/
+
+@media (min-width: 350px) {
+    .navbar.navbar-inverse .navbar-brand span {
+        background: url("http://samek86.ipdisk.co.kr:8000/list/HDD1/daedong/assets/img/logo-wide.png") no-repeat;
+        width: 270px;
+        height: 40px;
+        display: inline-block;
+        background-size: contain;
+    }
+}
+
+.About {
+    background: #f6f6f6;
+    padding: 0 0 65px 0;
+    position: relative
+}
+
+.About h1 {
+    font-family: "pt_sans_captionregular", "Myriad Pro", "sanserif";
+    text-align: center;
+    font-size: 36px;
+    margin: 65px 0 0 0;
+    padding: 0
+}
+
+.About h1 span {
+    padding: 25px 25px 0 25px;
+    border-top: 2px solid #d82c2c
+}
+
+.About ul {
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+
+.About ul li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center
+}
+
+.About ul li a.Icon {
+    display: inline-block;
+    padding-top: 30px;
+    font-size: 75px
+}
+
+.About ul li a.Icon:link,
+.About ul li a.Icon:visited {
+    color: #333
+}
+
+.About ul li a.Icon:hover,
+.About ul li a.Icon:active {
+    color: #c22528
+}
+
+.About ul li h2 {
+    font-size: 17px;
+    font-family: "Nanum Barun Gothic";
+    color: #d82c2c
+}
+
+.About ul li .Content {
+    font-family: "Nanum Barun Gothic";
+    padding: 0 17px;
+    font-size: 15px;
+    line-height: 1.9em
+}
+
+@media (min-width: 768px) {
+    .About ul li span.Icon {
+        padding-top: 50px;
+        font-size: 60px
+    }
+}
+
+@media (min-width: 992px) {
+    .About ul li span.Icon {
+        padding-top: 70px;
+        font-size: 88px
+    }
+}
+
+.Portfolio {
+    background: #fff;
+    padding: 0 0 0 0;
+    position: relative
+}
+
+.Portfolio h1 {
+	font-family: 'PT Sans Caption', "Myriad Pro", "rb-font" sans-serif;
+    src: url('"../fonts/rb-font.eot');
+    src: url('"../fonts/rb-font.eot?#iefix') format('eot'), url('"../fonts/rb-font.woff') format('woff'), url('"../fonts/rb-font.ttf') format('truetype'), url('"../fonts/rb-font.svg#rb-font') format('svg');
+   /*  font-family: "pt_sans_captionregular", "Myriad Pro", "sanserif"; */
+    text-align: center;
+    font-size: 36px;
+    margin: 65px 0 0 0;
+    padding: 0
+}
+
+.Portfolio h1 span {
+    padding: 25px 25px 0 25px;
+    border-top: 2px solid #d82c2c
+}
+
+.Portfolio img.PortfolioSlide {
+    width: 180px;
+    height: 266px
+}
+
+.Portfolio .CoverFlowControlWrap {
+    margin-top: 0px;
+    position: relative;
+}
+
+.Portfolio .CoverFlowControlWrap .CoverFlow.SlideLeft {
+    left: 0;
+    top: 200px
+}
+
+.Portfolio .CoverFlowControlWrap .CoverFlow.SlideRight {
+    right: 0;
+    top: 200px
+}
+
+.Portfolio .CoverFlowControlWrap .CoverFlow.SlideLeft,
+.Portfolio .CoverFlowControlWrap .CoverFlow.SlideRight {
+    display: none;
+    font-size: 32px;
+    position: absolute
+}
+
+.Portfolio .CoverFlowControlWrap .CoverFlow.SlideLeft a:link,
+.Portfolio .CoverFlowControlWrap .CoverFlow.SlideLeft a:visited,
+.Portfolio .CoverFlowControlWrap .CoverFlow.SlideRight a:link,
+.Portfolio .CoverFlowControlWrap .CoverFlow.SlideRight a:visited {
+    color: #5e5e5e
+}
+
+.Portfolio .CoverFlowControlWrap .CoverFlow.SlideLeft a:hover,
+.Portfolio .CoverFlowControlWrap .CoverFlow.SlideLeft a:active,
+.Portfolio .CoverFlowControlWrap .CoverFlow.SlideRight a:hover,
+.Portfolio .CoverFlowControlWrap .CoverFlow.SlideRight a:active {
+    color: #c22528
+}
+
+.Portfolio .CoverFlowControlWrap .CoverFlow.Title {
+    position: absolute;
+    display: block;
+    text-align: center;
+    width: 100%;
+    bottom: 0
+}
+
+.Portfolio .CoverFlowControlWrap .CoverFlow.Title h2 {
+    border-top: 2px solid #d82c2c;
+    font-family: "Nanum Barun Gothic";
+    font-size: 16px;
+    display: inline-block;
+    padding-top: 20px;
+    color: #666
+}
+
+.Portfolio .CoverFlowControlWrap .CoverFlow.Title h3 {
+    font-size: 20px;
+    margin: 5px 0 0 0
+}
+
+.Portfolio .CoverFlowWrap {
+    height: 370px;
+    margin-left: 0;
+    margin-right: 0
+}
+
+@media (min-width: 768px) {
+    .Portfolio img.PortfolioSlide {
+        width: 297px;
+        height: 440px
+    }
+    .Portfolio .CoverFlowControlWrap .CoverFlow.SlideLeft {
+        display: block
+    }
+    .Portfolio .CoverFlowControlWrap .CoverFlow.SlideRight {
+        display: block
+    }
+    .Portfolio .CoverFlowWrap {
+        height: 560px;
+        margin-left: 84px;
+        margin-right: 84px
+    }
+}
+
+.PortfolioPopup h1 {
+    color: #d82c2c;
+    font-family: "pt_sans_captionregular", "Myriad Pro", "sanserif";
+    font-size: 30px;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    text-align: center
+}
+
+.PortfolioPopup h1 span.Hr {
+    border-top: 2px solid #d82c2c;
+    width: 145px;
+    height: 50px;
+    display: block;
+    margin: 0 auto
+}
+
+.PortfolioPopup h2.SongTitle {
+    color: #888;
+    display: inline-block;
+    font-size: 20px;
+    line-height: 1.2em;
+    font-weight: normal;
+    max-width: 80%;
+    max-height: 3.6em;
+    overflow: hidden;
+    padding-left: 50px;
+    position: relative;
+    text-align: left
+}
+
+.PortfolioPopup h2.SongTitle div {
+    position: absolute;
+    top: 0;
+    left: -0px
+}
+
+.PortfolioPopup .SongProject {
+    color: #888;
+    font-size: 20px;
+    line-height: 1.2em;
+    font-weight: normal;
+    max-width: 80%;
+    max-height: 3.6em;
+    overflow: hidden;
+    padding-left: 88px;
+    position: relative;
+    text-align: left;
+    margin: 30px auto 0 auto
+}
+
+.PortfolioPopup .SongProject th.Label {
+    text-align: right;
+    font-weight: normal;
+    vertical-align: top;
+    white-space: nowrap
+}
+
+.PortfolioPopup .SongProject td {
+    text-align: left;
+    padding-left: 10px;
+    vertical-align: top
+}
+
+.PortfolioPopup .SongProject .SongGenre {
+    font-size: 85%;
+    color: #a1a1a1
+}
+
+.PortfolioPopup .SongProject .SongGenre th,
+.PortfolioPopup .SongProject .SongGenre td {
+    padding-top: 5px
+}
+
+.PortfolioPopup .SongProject div {
+    position: absolute;
+    top: 0;
+    left: -0px
+}
+
+.PortfolioPopup figure.TitleImg {
+    max-height: 440px
+}
+
+.PortfolioPopup .ButtonList .Button {
+    border-radius: 2px;
+    display: inline-block;
+    font-size: 14px;
+    padding: 14px;
+    margin-top: 20px
+}
+
+.PortfolioPopup .ButtonList .Button:link,
+.PortfolioPopup .ButtonList .Button:visited {
+    background: #a1a1a1;
+    color: #fff
+}
+
+.PortfolioPopup .ButtonList .Button:hover,
+.PortfolioPopup .ButtonList .Button:active {
+    background: #7a7a7a;
+    color: #fff
+}
+
+.PortfolioPopup .HeaderSection {
+    padding-top: 42px;
+    padding-bottom: 42px
+}
+
+.PortfolioPopup .HeaderSection .img-responsive {
+    margin: 0 auto 50px auto;
+    padding-top: 50px
+}
+
+.PortfolioPopup .PreviewSection {
+    box-shadow: inset 0 22px 20px -20px rgba(0, 0, 0, 0.3);
+    background: #f5f5f5;
+    padding-top: 50px;
+    padding-bottom: 50px
+}
+
+.PortfolioPopup .PreviewSection .SoundCloud {
+    margin-bottom: 40px;
+    margin-top: 50px
+}
+
+.PortfolioPopup .PreviewSection .SoundCloud iframe {
+    max-height: 400px
+}
+
+.PortfolioPopup .PreviewSection .SoundCloud.NoContents {
+    font-size: 14px;
+    text-align: center
+}
+
+.PortfolioPopup .ContentsSection {
+    box-shadow: inset 0 18px 20px -20px rgba(0, 0, 0, 0.3);
+    font-size: 17px;
+    padding-top: 50px
+}
+
+.PortfolioPopup .ContentsSection .TextContents {
+    color: #4d4d4d;
+    line-height: 2em;
+    margin-top: 50px;
+    text-align: left
+}
+
+.PortfolioPopup .ContentsSection .TextContents.NoContents {
+    font-size: 14px;
+    text-align: center
+}
+
+.Popup {
+    position: relative;
+    -webkit-box-shadow: 1px 2px 20px 0 rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 1px 2px 20px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 2px 20px 0 rgba(0, 0, 0, 0.3);
+    background: #fff;
+    border: 1px solid #8b8b8b;
+    padding: 0 0 0 0;
+    text-align: center
+}
+
+.PopupOverlay {
+    background: #000;
+    display: none;
+    opacity: 0.5;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1899
+}
+
+.PopupOverlay.Fade.In {
+    opacity: 0.5
+}
+
+body.PopupOpen .PopupOverlay {
+    display: block
+}
+
+
+  /*#####                              ######
+ #     # #       ####   ####  ###### #     # #    # ##### #####  ####  #    #
+ #       #      #    # #      #      #     # #    #   #     #   #    # ##   #
+ #       #      #    #  ####  #####  ######  #    #   #     #   #    # # #  #
+ #       #      #    #      # #      #     # #    #   #     #   #    # #  # #
+ #     # #      #    # #    # #      #     # #    #   #     #   #    # #   ##
+  #####  ######  ####   ####  ###### ######   ####    #     #    ####  #    #*/
+
+.CloseButton {
+    background: url("http://samek86.ipdisk.co.kr:8000/list/HDD1/daedong/assets/img/portfolio_popup_close.png");
+    background-position: 63px 0;
+    display: inline-block;
+    height: 63px;
+    width: 63px;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 99999
+}
+
+.CloseButton:hover,
+.CloseButton:active {
+    background: url("http://samek86.ipdisk.co.kr:8000/list/HDD1/daedong/assets/img/portfolio_popup_close.png");
+    background-position: 0 0
+}
+
+.PopupWrap {
+    display: none;
+    overflow: scroll;
+    overflow-x: hidden;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 1900
+}
+
+.PopupWrap.Active {
+    display: block
+}
+
+#progressPopupWrap {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    text-align: center;
+    z-index: 1902
+}
+
+#progressPopupWrap.Fade {
+    display: block
+}
+
+#progressPopupWrap.Fade.In {
+    opacity: 1
+}
+
+#progressPopupWrap #progressPopup {
+    position: relative;
+    width: 100%;
+    height: 100%
+}
+
+#progressPopupWrap #progressPopup .ProgressWrap {
+    background: #333;
+    border-radius: 5px;
+    height: 100px;
+    left: 50%;
+    margin: -50px 0 0 -75px;
+    position: absolute;
+    top: 50%;
+    width: 150px
+}
+
+#progressPopupWrap #progressPopup .ProgressWrap img.ProgressImage {
+    margin-top: 22px
+}
+
+#progressPopupWrap #progressPopup .ProgressWrap .ProgressMessage {
+    color: #fff;
+    font-size: 12px;
+    padding-top: 22px
+}
+
+#progressPopupOverlay {
+    background: #000;
+    display: none;
+    opacity: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1901
+}
+
+#progressPopupOverlay.Fade {
+    display: block
+}
+
+#progressPopupOverlay.Fade.In {
+    opacity: 0.5
+}
+
+.Fade {
+    transition: opacity 0.3s;
+    opacity: 0
+}
+
+.Fade.In {
+    opacity: 1
+}
+
+html,
+body {
+    height: 100%
+}
+
+body.PopupOpen {
+    overflow: hidden
+}
+
+@media (min-width: 768px) {
+    .PortfolioPopup .HeaderSection .ContentsWrap {
+        height: 300px
+    }
+    .PortfolioPopup .HeaderSection .ContentsWrap .Contents {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%)
+    }
+    .PortfolioPopup .HeaderSection .img-responsive {
+        margin-bottom: 0;
+        padding-top: 0
+    }
+    .Popup {
+        width: 700px;
+        margin: 100px auto
+    }
+    .CloseButton {
+        position: absolute;
+        top: 600px;
+        right: -31px
+    }
+}
+
+@media (min-width: 992px) {
+    .PortfolioPopup .HeaderSection .ContentsWrap {
+        height: 400px
+    }
+    .Popup {
+        width: 900px;
+        margin: 100px auto
+    }
+}
+
+ /*#     #       #       ######
+ ##   ##      # #      #     #
+ # # # #     #   #     #     #
+ #  #  #    #     #    ######
+ #     #    #######    #
+ #     #    #     #    #
+ #     #    #     #    #*/
+
+.PriceTable {
+    background: #f6f6f6 url("http://samek86.ipdisk.co.kr:8000/list/HDD1/daedong/assets/img/pricetable.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 0 0 65px 0;
+    position: relative
+}
+
+.PriceTable h1 {
+    font-family: "pt_sans_captionregular", "Myriad Pro", "sanserif";
+    text-align: left;
+    font-size: 36px;
+    margin: 65px 0 0 0;
+    padding: 0
+}
+
+.PriceTable h1 span {
+    padding: 7px 25px 5px 25px;
+    border-left: 2px solid #d82c2c
+}
+
+.PriceTable label {
+    color: #999;
+    padding-top: 20px
+}
+
+.PriceTable input,
+.PriceTable textarea {
+    border: 1px solid #cfcfcf;
+    background: #fff
+}
+
+.PriceTable input {
+    height: 42px
+}
+
+.PriceTable textarea {
+    height: 100px
+}
+
+.PriceTable .LeftButtonWrap {
+    padding-right: 5px
+}
+
+.PriceTable .RightButtonWrap {
+    padding-left: 5px
+}
+
+.PriceTable a.Button {
+    background: rgba(51, 51, 51, 0.6);
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 12px;
+    height: 50px;
+    margin-top: 20px;
+    padding-left: 2px;
+    padding-right: 2px;
+    text-align: center;
+    vertical-align: middle
+}
+
+.PriceTable a.Button div {
+    position: relative;
+    top: 50%;
+    font-size: 19px;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%)
+}
+
+.PriceTable a.Button .Icon {
+    font-size: 25px;
+    vertical-align: middle;
+    line-height: 1em;
+    padding-right: 5px;
+}
+
+.PriceTable .Tip {
+    color: #999;
+    line-height: 1.9em
+}
+
+.PriceTable .Tip span {
+    padding-top: 15px;
+    display: inline-block
+}
+
+@media (min-width: 768px) {
+    .PriceTable a.Button {
+        margin-top: 40px
+    }
+}
+
+@media (min-width: 992px) {
+    .PriceTable h1 {
+        left: 10px;
+        position: absolute;
+        text-align: left;
+        top: -20px
+    }
+    .PriceTable h1 span {
+        padding: 7px 25px 5px 25px;
+        border-left: 2px solid #d82c2c;
+        border-top: none
+    }
+    .PriceTable .container {
+        position: relative
+    }
+    .PriceTable .Tip {
+        bottom: 0;
+        left: 10px;
+        position: absolute
+    }
+    .PriceTable label {
+        color: #999;
+        padding-top: 35px
+    }
+    .PriceTable a.Button {
+        margin-top: 55px
+    }
+}
+
+.Contact {
+    padding: 0 0 65px 0;
+    position: relative
+}
+
+.Contact h1 {
+    font-family: "pt_sans_captionregular", "Myriad Pro", "sanserif";
+    text-align: left;
+    font-size: 36px;
+    margin: 65px 0 0 0;
+    padding: 0
+}
+
+.Contact h1 span {
+    padding: 7px 25px 5px 25px;
+    border-left: 2px solid #d82c2c
+}
+
+.Contact .Map {
+    height: 220px
+}
+
+.Contact .ContactInfoWrap {
+    margin-top: 50px
+}
+
+.Contact .ContactInfo {
+    margin: 0;
+    padding: 20px 0 0 0
+}
+
+.Contact .ContactInfo a:link,
+.Contact .ContactInfo a:visited,
+.Contact .ContactInfo a:hover,
+.Contact .ContactInfo a:active {
+    color: #333333
+}
+
+.Contact .ContactInfo dt,
+.Contact .ContactInfo dd {
+    margin: 0;
+    padding: 0;
+    font-weight: normal
+}
+
+.Contact .ContactInfo dt {
+    color: #c22528
+}
+
+.Contact .ContactInfo dd {
+    margin-bottom: 25px
+}
+
+.Contact .ContactInfo dd.BusInfo table,
+.Contact .ContactInfo dd.BusInfo tr,
+.Contact .ContactInfo dd.BusInfo th,
+.Contact .ContactInfo dd.BusInfo td {
+    margin: 0;
+    padding: 0
+}
+
+.Contact .ContactInfo dd.BusInfo th {
+    white-space: nowrap;
+    font-weight: normal;
+    vertical-align: top
+}
+
+.Contact .ContactInfo dd.BusInfo td {
+    vertical-align: top
+}
+
+@media (min-width: 768px) {
+    .Contact .Map {
+        height: 400px
+    }
+    .Contact .ContactInfo {
+        padding-top: 0;
+        padding-left: 5px
+    }
+}
+
+.Partner {
+    background: #f6f6f6;
+    padding: 0 0 65px 0;
+    position: relative;
+    height: 106px
+}
+
+.Partner h1 {
+    font-family: "pt_sans_captionregular", "Myriad Pro", "sanserif";
+    text-align: left;
+    font-size: 36px;
+    margin: 65px 0 0 0;
+    padding: 0
+}
+
+.Partner h1 span {
+    padding: 7px 25px 5px 25px;
+    border-left: 2px solid #d82c2c
+}
+
+ /*######
+ #     # ######  ####  #####  #    # # #####
+ #     # #      #    # #    # #    # #   #
+ ######  #####  #      #    # #    # #   #
+ #   #   #      #      #####  #    # #   #
+ #    #  #      #    # #   #  #    # #   #
+ #     # ######  ####  #    #  ####  #   #*/
+
+.Recruit {
+    background: #f6f6f6 url("http://samek86.ipdisk.co.kr:8000/list/HDD1/daedong/assets/img/recruit.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 0 0 65px 0;
+    position: relative;
+    color: #fff
+}
+
+.Recruit h1 {
+    font-family: "pt_sans_captionregular", "Myriad Pro", "sanserif";
+    text-align: center;
+    font-size: 36px;
+    margin: 65px 0 0 0;
+    padding: 0
+}
+
+.Recruit h1 span {
+    padding: 25px 25px 0 25px;
+    border-top: 2px solid #d82c2c;
+    color: #fff
+}
+
+.Recruit h2 {
+    font-family: "pt_sans_captionregular", "Myriad Pro", "sanserif";
+    margin: 0 0 10px 0;
+    padding: 0;
+    color: #c22528;
+    font-size: 32px
+}
+
+.Recruit h3 {
+    font-family: "Nanum Barun Gothic";
+    margin: 0 0 10px 0;
+    padding: 0;
+    font-size: 22px
+}
+
+.Recruit .RecruitInfo {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    line-height: 1.8em
+}
+
+.Recruit .RecruitInfo hr {
+    background: #fff;
+    color: transparent;
+    border: none;
+    height: 1px;
+    margin-top: 50px;
+    margin-bottom: 60px
+}
+
+.Recruit .RecruitInfo .RightColumn h3 {
+    color: #c22528
+}
+
+.Recruit .RecruitInfo .RightColumn table tr,
+.Recruit .RecruitInfo .RightColumn table td,
+.Recruit .RecruitInfo .RightColumn table th {
+    font-weight: normal;
+    vertical-align: top
+}
+
+.Recruit .RecruitInfo .RightColumn table th {
+    width: 60px
+}
+
+.Recruit .RecruitInfo .RightColumn table td {
+    padding-left: 20px
+}
+
+.Recruit .Button {
+    cursor: pointer
+}
+
+@media (min-width: 768px) {
+    .Recruit .RecruitInfo {
+        margin-top: 50px;
+        line-height: 1.8em
+    }
+    .Recruit .RecruitInfo hr {
+        background: #fff;
+        color: transparent;
+        border: none;
+        height: 1px;
+        margin-top: 50px;
+        margin-bottom: 60px
+    }
+    .Recruit .RecruitInfo .LeftColumn {
+        padding-right: 50px
+    }
+    .Recruit .RecruitInfo .RightColumn {
+        border-left: 1px solid #fff;
+        padding-left: 50px
+    }
+    .Recruit .RecruitInfo .RightColumn h3 {
+        color: #c22528
+    }
+    .Recruit .RecruitInfo .RightColumn table tr,
+    .Recruit .RecruitInfo .RightColumn table td,
+    .Recruit .RecruitInfo .RightColumn table th {
+        font-weight: normal;
+        vertical-align: top
+    }
+    .Recruit .RecruitInfo .RightColumn table td {
+        padding-left: 20px
+    }
+}
+
+.ApplicationFormPopup {
+    padding-bottom: 25px;
+    border: 1px solid #434343
+}
+
+.ApplicationFormPopup .HeaderSection {
+    background: #565759
+}
+
+.ApplicationFormPopup .HeaderSection h1 {
+    color: #fff;
+    font-size: 18px;
+    margin: 0;
+    padding: 18px 18px 16px 18px;
+    text-align: left
+}
+
+.ApplicationFormPopup .HeaderSection h1 small {
+    font-size: 12px;
+    color: #fff;
+    font-weight: normal;
+    display: block;
+    padding-top: 5px
+}
+
+.ApplicationFormPopup .BodySection .row {
+    color: #666
+}
+
+.ApplicationFormPopup .BodySection .row.PrivacyRow {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: left
+}
+
+.ApplicationFormPopup .BodySection .row.TableRow {
+    border-top: 1px solid #eee
+}
+
+.ApplicationFormPopup .BodySection .row.TableRow .LabelColumn {
+    padding-top: 10px;
+    text-align: left
+}
+
+.ApplicationFormPopup .BodySection .row.TableRow .InputColumn {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    background: #fff;
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee
+}
+
+.ApplicationFormPopup .BodySection .row.TableRow .InputColumn:last-child {
+    border-right: none
+}
+
+.ApplicationFormPopup .BodySection .row.TableRow .InputColumn .Hint {
+    padding-top: 8px
+}
+
+.ApplicationFormPopup .BodySection .row.TableRow .InputColumn input[type=file] {
+    border: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none
+}
+
+.ApplicationFormPopup .BodySection .row.TableRow .InputColumn textarea {
+    height: 150px
+}
+
+.ApplicationFormPopup .BodySection .row.TableRow.BottomRow {
+    border-bottom: 1px solid #eee
+}
+
+.ApplicationFormPopup .BodySection .row .Hint {
+    font-size: 12px;
+    padding-top: 12px;
+    text-align: left
+}
+
+.ApplicationFormPopup .BodySection label {
+    font-weight: normal
+}
+
+.ApplicationFormPopup .FooterSection .ButtonList {
+    padding-top: 25px
+}
+
+.ApplicationFormPopup .FooterSection .ButtonList .SubmitButton {
+    background: #5d656e;
+    border: 1px solid #5d656e;
+    color: #fff;
+    font-size: 18px;
+    padding: 18px
+}
+
+.ApplicationFormPopup .FooterSection .ButtonList .CancelButton {
+    background: #fafafa;
+    border: 1px solid #e1e1e1;
+    color: #333;
+    font-size: 18px;
+    margin-top: 10px;
+    padding: 18px
+}
+
+
+  /*#####                              ######
+ #     # #       ####   ####  ###### #     # #    # ##### #####  ####  #    #
+ #       #      #    # #      #      #     # #    #   #     #   #    # ##   #
+ #       #      #    #  ####  #####  ######  #    #   #     #   #    # # #  #
+ #       #      #    #      # #      #     # #    #   #     #   #    # #  # #
+ #     # #      #    # #    # #      #     # #    #   #     #   #    # #   ##
+  #####  ######  ####   ####  ###### ######   ####    #     #    ####  #    #*/
+.ApplicationFormPopup .CloseButton {
+    background: url("http://samek86.ipdisk.co.kr:8000/list/HDD1/daedong/assets/img/recruit_popup_close.png");
+    background-position: 0 0;
+    display: inline-block;
+    height: 34px;
+    width: 34px;
+    position: absolute;
+    top: 15px;
+    right: 25px
+}
+
+.ApplicationFormPopup .CloseButton:hover,
+.ApplicationFormPopup .CloseButton:active {
+    background: url("http://samek86.ipdisk.co.kr:8000/list/HDD1/daedong/assets/img/recruit_popup_close.png");
+    background-position: 0 0
+}
+
+@media (min-width: 768px) {
+    .ApplicationFormPopup .HeaderSection h1 {
+        padding-left: 40px
+    }
+    .ApplicationFormPopup .HeaderSection h1 small {
+        display: inline;
+        padding-top: 0
+    }
+    .ApplicationFormPopup .BodySection .row {
+        color: #666
+    }
+    .ApplicationFormPopup .BodySection .row.PrivacyRow {
+        padding-top: 15px;
+        padding-bottom: 10px
+    }
+    .ApplicationFormPopup .BodySection .row.TableRow {
+        border-top: 1px solid #eee;
+        background: #f6f9fa
+    }
+    .ApplicationFormPopup .BodySection .row.TableRow .LabelColumn {
+        padding-top: 18px;
+        text-align: center
+    }
+    .ApplicationFormPopup .BodySection .row.TableRow .InputColumn {
+        padding-top: 10px
+    }
+    .ApplicationFormPopup .BodySection .row.TableRow .InputColumn textarea {
+        height: 200px
+    }
+    .ApplicationFormPopup .FooterSection .ButtonList {
+        padding-top: 25px
+    }
+    .ApplicationFormPopup .FooterSection .ButtonList .SubmitButton {
+        margin-right: 5px
+    }
+    .ApplicationFormPopup .FooterSection .ButtonList .CancelButton {
+        margin-top: 0px;
+        margin-left: 5px
+    }
+    .ApplicationFormPopup .CloseButton {
+        top: 8px;
+        right: 8px
+    }
+}
+
+
+.Bottom {
+    background: #ffffff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 10px 0 20px 0;
+    position: relative;
+    color: #444;
+    text-align: center;
+}
